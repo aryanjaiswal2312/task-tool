@@ -1,0 +1,18 @@
+# Dependencies
+**/node_modules/
+
+# Frontend build
+frontend/dist/
+
+# Secrets — copy backend/.env.example to backend/.env locally
+.env
+.env.local
+**/.env
+
+# Local app data (JSON DB is created on first run)
+backend/data/db.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
